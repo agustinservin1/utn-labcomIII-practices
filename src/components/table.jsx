@@ -1,6 +1,6 @@
 import Table from "react-bootstrap/Table";
 import PropTypes from "prop-types";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const DarkExample = ({ data }) => {
   const totalIncome = data.reduce((sum, item) => sum + item.income, 0);
@@ -11,7 +11,6 @@ const DarkExample = ({ data }) => {
       <Table striped bordered hover variant="dark">
         <thead>
           <tr>
-          
             <th>Brand</th>
             <th>Income</th>
           </tr>
@@ -35,8 +34,6 @@ const DarkExample = ({ data }) => {
           </tr>
         </tfoot>
       </Table>
-
-      <p></p>
     </>
   );
 };
