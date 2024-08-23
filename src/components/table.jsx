@@ -28,12 +28,9 @@ const DarkExample = ({ data }) => {
             <td>Total income</td>
             <td>{totalIncome}</td>
           </tr>
-          <tr>
-            <td>Average Net Income:</td>
-            <td>{averageIncome}</td>
-          </tr>
         </tfoot>
       </Table>
+      <p>Average Net Income: {averageIncome}</p>
     </>
   );
 };
